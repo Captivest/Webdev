@@ -1,0 +1,29 @@
+#log_form{
+  align-items: center;
+  color: black;
+}
+#ttl{
+  color: red;
+}
+.login{
+  align-items: center;
+  color:red;
+}
+body{
+  background: black;
+}
+p{
+  font-size: 35px;
+  font-family: sans-serif;
+  color: red;
+}
+blockquote{
+  color: red;
+  background: black;
+}
+main{
+  align-items: center;
+  background-color: black;
+  align-content: center;
+  color: green;
+}
