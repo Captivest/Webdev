@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    ;
+}
+
+#ttl {
+    color: red;
+}
+
+.form {
+    width: 30%;
+    padding-top: 50px;
+}
