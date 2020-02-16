@@ -1,13 +1,173 @@
-body {
+.pg1{
     background-color: black;
-    ;
-}
+  }
 
 #ttl {
     color: red;
+  }
+header{
+  background-color:yellow;
+}
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.nav_bar{
+  float:right;
+}
+.form {
+    width: 25%;
+    padding-top: 275px;
+<<<<<<< HEAD
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  font-size: large;
+  padding-top: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  position:relative;
+}
+nav a{
+  color: blue;
+  text-transform: uppercase;
+}
+nav a:hover{
+  color: black;
+  text-decoration: none;
+}
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: black;
+  position: absolute;
+  top:0;
+  transition: all ease-in-out 200ms;
 }
 
-.form {
-    width: 30%;
-    padding-top: 50px;
+nav a:hover::before{
+  width: 100%;
+=======
+>>>>>>> 8a2e0f86d14686218fc67875428dfd32a1c1ace0
+}
+
+body {
+    display: flex;
+    background-color: black;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+#ul1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ul2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ul1 li {
+    list-style: none;
+    padding: 40px;
+}
+
+#ul2 li {
+    list-style: none;
+    padding: 40px;
+}
+
+#main {
+    display: flex;
+    border: 3px solid rgba(16, 206, 240, 0.911);
+    border-radius: 20%;
+    border-style: none;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 18%;
+}
+
+.img1 {
+    background-image: url("https://www.artofvfx.com/Avengers3/Avengers3_Framestore_ITW_14.jpg");
+}
+
+.img2 {
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/eu_sws-9-the-rise-of-skywalker_hero_m_3679b248.jpeg?region=0,0,750,668");
+}
+
+.img3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_6AK_yG2CzxJ4as5LHxUy5kx5mkHBCR_H-k9bXhpAaQJhb6yG");
+}
+
+.img4 {
+    background-image: url("https://i.pinimg.com/564x/90/25/47/902547fc638f760eb02d646097d4dcdc.jpg");
+}
+
+.img5 {
+    background-image: url("https://i.ytimg.com/vi/jGgLCxmHFYE/maxresdefault.jpg");
+}
+
+.img6 {
+    background-image: url("https://fxfactory.com/news/eric-jordan-on-the-vfx-of-peoples-republic-of-desire/EricJordan_PROD_Film_C.jpg");
+}
+
+#main:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(16, 206, 240, 0.911);
+    border-style: solid;
+    transition: 0.3s ease-in-out;
+}
+
+#main:hover #text {
+    color: rgba(16, 206, 240, 0.911);
+    visibility: visible;
+    transition: visibility 0.6s, 0.3s ease-in-out;
+    font-size: 1.6em;
+    text-shadow: 0 0 25px rgba(16, 206, 240, 0.911);
+}
+
+.img:hover {
+    filter: none;
+    -webkit-filter: blur(4px) grayscale(100%);
+    transition: 0.3s ease-in-out;
 }
