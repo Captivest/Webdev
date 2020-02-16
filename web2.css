@@ -1,13 +1,60 @@
-body {
+.pg1{
     background-color: black;
-    ;
-}
+  }
 
 #ttl {
     color: red;
+  }
+header{
+  background-color:yellow;
 }
-
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.nav_bar{
+  float:right;
+}
 .form {
     width: 25%;
     padding-top: 275px;
+<<<<<<< HEAD
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  font-size: large;
+  padding-top: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  position:relative;
+}
+nav a{
+  color: blue;
+  text-transform: uppercase;
+}
+nav a:hover{
+  color: black;
+  text-decoration: none;
+}
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: black;
+  position: absolute;
+  top:0;
+  transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+=======
+>>>>>>> 8a2e0f86d14686218fc67875428dfd32a1c1ace0
 }
